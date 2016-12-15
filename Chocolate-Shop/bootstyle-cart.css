@@ -1,0 +1,18 @@
+/*  More, Ashwini    Account: jadrn031
+                     CS545, Fall 2016
+                     Project #4
+*/
+
+a{color:#97694F; font-weight:bold}
+body{font-family:serif;alignment:center}
+.panel-footer{font-weight:bold;}
+.panel > .panel-heading { height:40px;background-color: #97694F;color:white;}
+.tab-pane {alignment:center;margin-left:60px;}
+pre{width:300px;}
+.panel{width:700px;margin:auto;}
+.btn{width:700px;margin-left:210px;background-color:black;margin-top:30px;font-weight:bold}
+.panel-title{color:white;}
+.panel-body {margin-left:100px; width: 500px}
+#name, #name2, #pin, #pin2, #state, #state2, #city, #city2, #country, #country2, 
+#phone, #phone2, #address, #address2, #landmark, #landmark2{margin-left:5px;margin-bottom:10px}
+.form-group{margin-left:100px;}

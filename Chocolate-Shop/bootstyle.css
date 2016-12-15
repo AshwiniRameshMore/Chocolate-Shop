@@ -1,0 +1,266 @@
+/*  More, Ashwini    Account: jadrn031
+                     CS545, Fall 2016
+                     Project #4
+*/
+
+.clear-it{
+	clear:both;
+}
+.bg{
+	width:100%;
+	text-align:center;
+}
+#navigation ul {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#navigation li {
+    display: inline;
+    margin-left: -4px; 
+    background-color: black;   
+}
+#navigation a {
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+	font-size:18px;
+    border: 2px solid white;
+    color:  white;
+    background-color: black;
+}                 
+#navigation a:hover {
+    color:  black;
+    background-color: white;
+}
+#navigation a:active {
+    color: white;
+}
+#cartImg{
+	margin-top:50px;
+}
+.pan {
+        font-style: italic;
+        font-weight: bold;
+        color: green;
+        display: none;
+}
+.prod_img{
+	margin-right:15px;
+}
+#cat{
+	position: absolute;	
+}
+#nav {
+	position: fixed;
+	float :left;
+	width: 20%;
+	display : inline;
+}
+#right_content{
+	margin-left:200px;
+}
+.img1{
+	 padding: 15px;
+	border-radius: 25px;
+	margin: auto;
+	width:442px;
+	height:550px;	
+}
+img{
+	border-radius: 25px;
+}
+#cart-head{
+	margin:auto;
+	padding:100px;
+   text-align:center;
+}
+#cart-head2{
+		margin:10px auto;
+		padding-bottom:20px;
+text-align:center;
+}
+h1 {
+    text-align: center;
+    padding: 20px 0 20px 0;
+	color:#000000;
+}    
+.navbar {
+     margin-bottom: 20px;
+     width:100%;
+     background:black;
+     border-radius: 0;
+    }
+	
+a{color:#97694F; font-weight:bold}
+#back{
+	margin-left:330px;
+}
+img:hover{cursor:pointer}
+.jumbotron {
+     margin-top:0px;width:100%;
+     margin-bottom: 0px; background:#E9C2A6;
+}
+.spacer{padding-left:20px;}
+.container{height:100px; margin-top:-50px;}
+.showclass{margin:10px 200px 40px 200px}
+footer {padding:10px 0;
+        margin-top:60px;
+        background-color: #E9C2A6;
+        text-align: center;
+        color: white;
+        font-size:14px;}
+#msg{padding-bottom:180px;padding-left:150px;padding-top:100px}
+
+html, body {
+    height: 96%;
+    background-image: url(imgs/cart.jpg);
+    background-color:	#E9C2A6;
+    color: black;
+	font-size:100%;
+}    
+#container {    
+    min-height: 100%;
+    min-width: 900px;
+    background-color: #E9C2A6;
+    margin: 1% 5% 1% 5%;
+    border-radius: 25px;
+    border: 5px solid grey;
+    position: relative; 
+	padding: 10px 30px 30px 30px;
+} 
+.head {
+    font-size:50px;
+    color: black;
+    font-weight:bold; padding-top:20px;letter-spacing: 3px;
+    }
+.sub-head {
+    font-size:25px;
+    color: darkgrey;   
+    font-weight:italic;
+}  
+#content{
+	margin-top:20px;
+	width:100%;
+}
+#info {
+	    font-size:17px;
+		margin:50px;
+}
+.row-content{margin-top:0px} 
+.order{margin-left:10px;margin-right:10px}
+.cancel{margin-right:10px}
+.cancel_order{margin-right:10px}
+
+.checkout{color:white;background-color:black;width:200px; height:35px;font-weight:bold; margin-top:100px;margin-bottom:100px;}
+.buy{font-weight:bold; color:white;background-color:black; margin-left:10px;}
+.addtoCart,.continue,.order,.cancel,.cancel_order{width:200px; height:35px;font-weight:bold; color:white;background-color:black;margin-top:20px}
+.order:hover,.checkout:hover,.cancel:hover,.continue:hover,.cancel_order:hover,.addtoCart:hover,.buy:hover
+{color:black;background-color:gray;}
+#about1{margin-left:200px; margin-right:200px;margin-bottom:50px}
+#btn_panel{
+		margin: auto;
+		margin-top:30px;
+	text-align: center;
+	width: 700px;;
+}
+.filter {
+	margin: 5px 25px 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	border-radius: 8px;
+        padding:4px;
+        width:120px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline:none;
+  	color: white;
+  	border: 1px solid #000000;
+    background-color: black;
+	}
+
+.filter:hover,
+.filter:focus {
+	color : black;
+	background-color: white;
+}
+.img_disp{
+	margin-bottom:5px;
+	margin-right:5px;
+}
+.buy_table{
+	border-collapse: collapse;
+	margin: auto;
+	text-align: left;
+	width: auto;
+}
+.buy_table th {
+  	padding-bottom:5px;
+	width:100px;
+}
+.buy_table td {
+	width:100px;
+}
+#sum_table{
+	border-collapse: collapse;
+	margin: auto;
+	text-align: left;
+	width: 700px;
+}
+#sum_table th {
+  	padding-bottom:5px;
+	width:100px;
+}
+#sum_table td {
+	width:100px;
+}
+td.first, th.first{
+	width:auto;
+	text-align:left;
+}
+td.last,th.last{
+	text-align:right;
+}
+td.mid,th.mid{
+	text-align:center;
+}
+
+#summary_address, hr{
+	margin:auto;
+	width:auto;
+}
+#summary_address{
+	margin:auto;
+	width:auto;
+}
+#rep_table table {
+    margin:auto;
+	width:900px;
+	align:center;
+	font-size:20px;
+    }    
+    
+#rep_table th, td {
+    padding: 5px 20px 5px 20px;
+    }
+#bot{
+	margin-top:80px;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+}
+#accordian{
+	align:center;
+}
+#content2{
+	margin:auto;
+}
+#btn_panel{
+	align:center;
+}
+hr{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#sorry{margin-left:80px;color:black;font-weight:bold;margin-top:100px; }
+#message{margin-left:468px;margin-right:300px;margin-top:20px;color:red;font-weight:bold;}
+#emailInput{width:300px}
